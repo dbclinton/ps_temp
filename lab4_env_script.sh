@@ -6,8 +6,6 @@ sudo apt update
 sudo apt-get install -y terraform
 # Install Ansible and other tools
 sudo apt-get install -y ansible-core tree less
-mkdir /home/ubuntu/project
-tar xf lab1.tar /home/ubuntu/project
 # Install Docker
 sudo apt remove $(dpkg --get-selections docker.io docker-compose docker-compose-v2 docker-doc podman-docker containerd runc | cut -f1)
 ## Add Docker's official GPG key:
